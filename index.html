@@ -642,8 +642,8 @@
     </div>
     <div class="categories">
       <button class="cat-pill active" onclick="filterCat(this, 'all')">Todos</button>
-      <button class="cat-pill" onclick="filterCat(this, 'editor')">✏️ Editores</button>
-      <button class="cat-pill" onclick="filterCat(this, 'terminal')">🖥️ Terminal</button>
+      <button class="cat-pill" onclick="filterCat(this, 'browser')">✏️ Browser</button>
+      <button class="cat-pill" onclick="filterCat(this, 'admin')">🖥️ Administración</button>
       <button class="cat-pill" onclick="filterCat(this, 'media')">🎵 Multimedia</button>
       <button class="cat-pill" onclick="filterCat(this, 'sistema')">⚙️ Sistema</button>
       <button class="cat-pill" onclick="filterCat(this, 'dev')">💻 Desarrollo</button>
@@ -661,7 +661,7 @@
     <div class="apps-grid" id="appsGrid">
 
       <!-- CARD 1 -->
-      <div class="app-card" data-cat="terminal" style="animation-delay:0.05s">
+      <div class="app-card" data-cat="admin" style="animation-delay:0.05s">
         <div class="card-glow" style="background:var(--stellar)"></div>
         <div class="card-top">
           <div class="app-icon">
@@ -669,7 +669,7 @@
             </div>
           <div class="app-meta">
             <div class="app-name">Stellar Cleaner</div>
-            <div class="app-version">v1.3.0</div>
+            <div class="app-version">v1.0.0</div>
           </div>
           <div class="app-rating"><span class="stars">★★★★★</span> 4.9</div>
         </div>
@@ -680,11 +680,11 @@
         </div>
         <div class="card-divider"></div>
         <div class="card-actions">
-          <a class="btn-download" href="#" download onclick="downloadApp('Stellar Cleaner')">
+          <a class="btn-download" href="https://github.com/stellar-store/Stellar-Cleaner/releases/download/Stellar/stellarcleanes_1.0_all.deb" download onclick="downloadApp('Stellar Cleaner')">
             <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
             <span>Descargar</span>
           </a>
-          <a class="btn-code" href="#" target="_blank" onclick="window.open(this.href); return false;">
+          <a class="btn-code" href="https://github.com/stellar-store/Stellar-Cleaner" target="_blank" onclick="window.open(this.href); return false;">
             <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
             Código
           </a>
